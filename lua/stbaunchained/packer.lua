@@ -16,6 +16,8 @@ return require('packer').startup(function(use)
 	    "nvim-telescope/telescope-file-browser.nvim",
 	    requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
 	}
+	use('theprimeagen/harpoon')
+	use('mbbill/undotree')
 	use {
 	  "nvim-neo-tree/neo-tree.nvim",
 	    branch = "v3.x",
