@@ -21,7 +21,13 @@ return require('packer').startup(function(use)
 	    }
 	}
 	use "lukas-reineke/indent-blankline.nvim"
-	use { "catppuccin/nvim", as = "catppuccin" }
+	use ({ 
+		"catppuccin/nvim", 
+		as = "catppuccin",
+		config = function()
+			vim.cmd.colorscheme "catppuccin"
+		end
+	})
 	use {
 	    'numToStr/Comment.nvim',
 	    config = function()
