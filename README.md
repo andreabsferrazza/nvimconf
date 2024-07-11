@@ -1,3 +1,3 @@
-# Repository di packer
+# Repository di packer - Necessario per packer
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
