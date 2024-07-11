@@ -3,4 +3,4 @@ require("stbaunchained.packer")
 vim.wo.number = true
 require("ibl").setup()
 require('Comment').setup()
-require("lsp_config")
+require("stbaunchained.lsp_config")
