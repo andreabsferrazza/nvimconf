@@ -1,5 +1,6 @@
 require("stbaunchained.remap")
 require("stbaunchained.packer")
+require("stbaunchained.set")
 vim.wo.number = true
 require("ibl").setup()
 require('Comment').setup()
